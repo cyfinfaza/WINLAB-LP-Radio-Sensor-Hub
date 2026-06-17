@@ -416,7 +416,7 @@
         "uuid": "0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5"
       }
     ],
-    "used_designators": "D2,#PWR13-20,R2-6,J2,S1-3,C20-22",
+    "used_designators": "J1,J3,U4-5,C20,C23-26,L2-5,#PWR15,#PWR18,#PWR21-24",
     "variants": []
   },
   "sheets": [
@@ -431,6 +431,10 @@
     [
       "5ad374ff-424f-46b2-9f18-b4cecbd24790",
       "Power"
+    ],
+    [
+      "415caeb0-0f13-4c6e-8f8f-fa1df5ea5ac9",
+      "RF"
     ]
   ],
   "text_variables": {},
