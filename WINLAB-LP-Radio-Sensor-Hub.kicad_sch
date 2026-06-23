@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 152.4 38.1)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c2f8fd5-667e-47fd-95c9-2d370070e57a")
+		(property "Sheetname" "IO"
+			(at 152.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 152.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 38.1)
 		(size 25.4 12.7)
 		(exclude_from_sim no)

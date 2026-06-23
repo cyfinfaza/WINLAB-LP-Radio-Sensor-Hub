@@ -4566,7 +4566,7 @@
 			)
 		)
 	)
-	(global_label "SENSOR_ENABLE"
+	(global_label "~{SENSOR_ENABLE}"
 		(shape output)
 		(at 149.86 69.85 0)
 		(fields_autoplaced yes)

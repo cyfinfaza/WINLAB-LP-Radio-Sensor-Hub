@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.825,
+          "width": 0.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.888,
+        0.95
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +225,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -632,7 +648,7 @@
         "uuid": "0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5"
       }
     ],
-    "used_designators": "L1-5,D1-2,BT1,#PWR1-30,C1-28,FB1-4,J1-4,JP1,R1-8,S1-2,SC1,U1-6,Y1,Q1,IC1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -651,6 +667,10 @@
     [
       "415caeb0-0f13-4c6e-8f8f-fa1df5ea5ac9",
       "RF"
+    ],
+    [
+      "7c2f8fd5-667e-47fd-95c9-2d370070e57a",
+      "IO"
     ]
   ],
   "text_variables": {},
