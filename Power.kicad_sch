@@ -3525,6 +3525,12 @@
 		(uuid "74f42d0c-9195-432b-ab6c-1efc847550b1")
 	)
 	(junction
+		(at 170.18 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "753e81c9-20c0-44d4-b34c-d932bd5517fb")
+	)
+	(junction
 		(at 138.43 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3537,16 +3543,16 @@
 		(uuid "8e8b93dd-c607-42b5-834c-36497fabc7ae")
 	)
 	(junction
+		(at 125.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982df25f-1950-4511-b8f0-7094287c23a2")
+	)
+	(junction
 		(at 194.31 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9710017-b8f3-4a57-ac80-3105391b8314")
-	)
-	(junction
-		(at 125.73 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb22b7ff-5828-4c1a-9417-7c33d22eaf3e")
 	)
 	(junction
 		(at 45.72 149.86)
@@ -3559,12 +3565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc8f138-e3b9-4349-b5e3-8b9d8e3f4d69")
-	)
-	(junction
-		(at 170.18 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d398f2d7-dd3f-4b58-ac52-4df8e445efb7")
 	)
 	(junction
 		(at 252.73 71.12)
@@ -3689,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "1c786878-410e-4797-b7ea-70bf1bec6c9f")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c952a94-9a79-4001-8db3-537d8cc53e1d")
 	)
 	(wire
 		(pts
@@ -3932,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 194.31 115.57)
+			(xy 166.37 115.57) (xy 170.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4400,16 +4410,6 @@
 		)
 		(uuid "fc3bf5b6-b062-4725-89b1-02fe476e283c")
 	)
-	(wire
-		(pts
-			(xy 166.37 115.57) (xy 170.18 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcca2b89-7a8f-4f75-967a-2c4fc058c9eb")
-	)
 	(global_label "USB-"
 		(shape bidirectional)
 		(at 60.96 124.46 0)
@@ -4599,88 +4599,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "023e4b04-bdbb-4e12-88b1-7b9afcae0e83")
-		(property "Reference" "C27"
-			(at 173.99 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 173.99 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 171.1452 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f702a269-a0f6-4624-93ae-266c6cffd5ef")
-		)
-		(pin "2"
-			(uuid "e883ba56-52dc-4e90-9830-259074703db8")
-		)
-		(instances
-			(project "WINLAB-LP-Radio-Sensor-Hub"
-				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
-					(reference "C27")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5077,6 +4995,89 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c2625f-331c-4839-b8de-ed93c35d000e")
+		(property "Reference" "C28"
+			(at 173.99 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 173.99 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 169.2148 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fd7d1fc-b705-42e3-ba5e-dabf33ed6da8")
+		)
+		(pin "2"
+			(uuid "5981a2c5-8a06-481e-bb8f-4e0bb5e1b31d")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5494,6 +5495,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e25d608-f617-40ec-b9b1-56a8749d418b")
+		(property "Reference" "C27"
+			(at 129.54 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 129.54 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 124.7648 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8ab7b93-76cd-45f5-a263-828d8a91fb74")
+		)
+		(pin "2"
+			(uuid "59700d7d-a248-41ce-bd63-4bcbabfab124")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 80.01 0)
 		(unit 1)
@@ -5822,88 +5906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 125.73 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6644c261-10bb-4ea2-909e-5f64b0b39b8f")
-		(property "Reference" "C28"
-			(at 129.54 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 129.54 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 126.6952 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b383049-eb09-4c40-aca3-ff6f21373b1e")
-		)
-		(pin "2"
-			(uuid "13994eeb-33c1-4edb-8d47-7ba5532d85b0")
-		)
-		(instances
-			(project "WINLAB-LP-Radio-Sensor-Hub"
-				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 252.73 63.5 0)
 		(unit 1)
@@ -6132,88 +6134,6 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.73 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e3ffa54-36af-46ba-b2e8-a947f3790052")
-		(property "Reference" "C21"
-			(at 256.54 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 256.54 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 253.6952 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd21c44f-f658-46ce-819b-225cb7d452a1")
-		)
-		(pin "2"
-			(uuid "62305c78-c794-4bbb-9019-6716d6fca555")
-		)
-		(instances
-			(project "WINLAB-LP-Radio-Sensor-Hub"
-				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6876,6 +6796,89 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 80.01 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eadf692c-02e3-448d-8498-80ee05d92547")
+		(property "Reference" "C21"
+			(at 256.54 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 256.54 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 251.7648 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c310c43-64f5-48f4-a8d3-b93063345771")
+		)
+		(pin "2"
+			(uuid "0ff39e8d-10b1-433d-9169-4f83b96f3382")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "C21")
 					(unit 1)
 				)
 			)

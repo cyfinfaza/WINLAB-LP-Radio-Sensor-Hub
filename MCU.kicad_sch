@@ -3227,6 +3227,12 @@
 		(uuid "350fc7a0-aaad-4033-9443-12e55bc05f54")
 	)
 	(junction
+		(at 144.78 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368ed83e-2dab-454e-a0ab-846da5daec7f")
+	)
+	(junction
 		(at 217.17 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3412,6 +3418,12 @@
 		(color 0 0 0 0)
 		(uuid "f339f57e-3c62-49b5-b87d-260a516fbb8e")
 	)
+	(junction
+		(at 142.24 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb1456a5-04b3-4930-be7c-fa9e0be1fc83")
+	)
 	(no_connect
 		(at 86.36 67.31)
 		(uuid "0920052f-ac6d-4354-8715-a75b322608eb")
@@ -3469,6 +3481,16 @@
 			(type default)
 		)
 		(uuid "0e3e0c04-3546-4c22-8139-45e946f25bbe")
+	)
+	(wire
+		(pts
+			(xy 142.24 187.96) (xy 142.24 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10127f00-5dab-4367-be4c-9a51db8dd040")
 	)
 	(wire
 		(pts
@@ -3532,6 +3554,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 166.37) (xy 160.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d28ff83-e8c5-4a9f-8f40-bb4afc978dd5")
+	)
+	(wire
+		(pts
 			(xy 88.9 44.45) (xy 88.9 33.02)
 		)
 		(stroke
@@ -3549,6 +3581,16 @@
 			(type default)
 		)
 		(uuid "256e8ba4-4d73-4fd8-803f-debe2632da6e")
+	)
+	(wire
+		(pts
+			(xy 144.78 166.37) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f2b587-e92e-4ce7-ab3c-1f41dc629635")
 	)
 	(wire
 		(pts
@@ -4042,6 +4084,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 166.37) (xy 149.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83b8f3b-4f0f-4ae0-ae44-6a92a3ecaa44")
+	)
+	(wire
+		(pts
 			(xy 73.66 57.15) (xy 74.93 57.15)
 		)
 		(stroke
@@ -4059,6 +4111,16 @@
 			(type default)
 		)
 		(uuid "af1a9b57-24b4-4815-99f1-e5cdff110805")
+	)
+	(wire
+		(pts
+			(xy 144.78 165.1) (xy 144.78 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6038a7-b6e5-4b0e-a907-56eb2bfdd566")
 	)
 	(wire
 		(pts
@@ -4152,6 +4214,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 166.37) (xy 160.02 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81ca2b3-0bee-427d-83bd-c8f61bee7930")
+	)
+	(wire
+		(pts
 			(xy 157.48 85.09) (xy 149.86 85.09)
 		)
 		(stroke
@@ -4199,6 +4271,16 @@
 			(type default)
 		)
 		(uuid "d160d0c8-d7c2-48ff-9020-e2c17ec356be")
+	)
+	(wire
+		(pts
+			(xy 142.24 187.96) (xy 147.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d662e103-98e5-4e15-a388-b85f8598f5d4")
 	)
 	(wire
 		(pts
@@ -4590,6 +4672,30 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 132.08 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "477ff3ef-4e7e-4e5e-a8d0-1e7682c81468")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3635 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LED_USR"
 		(shape input)
 		(at 43.18 175.26 180)
@@ -4939,6 +5045,30 @@
 		(uuid "a8046d7a-5b90-4f8e-b0d8-5eda0bc5e8e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.84 102.1284 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 132.08 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a90986c0-9c54-4e6c-a8a3-5aa1a4319ca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.424 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,6 +6463,84 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d966896-3a1c-4cc2-b926-43d146f45b64")
+		(property "Reference" "#PWR042"
+			(at 160.02 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1069f8e5-6c20-4e3c-82ca-b929ac4d195c")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8345,6 +8553,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b275997d-8c02-4404-98d3-4da95e7a24e9")
+		(property "Reference" "#PWR044"
+			(at 156.21 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dd04c4f-f6ad-46c9-b9df-e4f62e74e26a")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 144.78 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8742503-0d1d-4df7-bd24-49d774ebc008")
+		(property "Reference" "#PWR041"
+			(at 144.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_SYS"
+			(at 144.78 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 144.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa415b2d-c6a2-4169-9267-ae85d4634db5")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 44.45 81.28 0)
 		(mirror y)
@@ -9308,6 +9673,165 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 142.24 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb28b574-69cc-4196-b306-e672ec00f1e0")
+		(property "Reference" "#PWR043"
+			(at 142.24 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2b5934e-9aed-44d3-94cd-be7986a39067")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 166.37 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc8c13c-d6b6-487d-862e-64246257bdf1")
+		(property "Reference" "C29"
+			(at 153.67 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 153.67 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 157.48 167.3352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29de4a3d-8b65-4a43-9594-cbb55f3273d2")
+		)
+		(pin "2"
+			(uuid "f8cccb57-bb0a-409b-aae4-568152e27785")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 57.15 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -9494,7 +10018,7 @@
 		(dnp no)
 		(uuid "f964b482-0dd5-49ea-8cff-18a3b013966a")
 		(property "Reference" "C10"
-			(at 157.48 96.5199 0)
+			(at 148.082 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9505,7 +10029,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 157.48 99.0599 0)
+			(at 148.082 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
