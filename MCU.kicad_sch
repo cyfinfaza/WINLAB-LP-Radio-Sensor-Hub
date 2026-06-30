@@ -3245,12 +3245,6 @@
 		(uuid "3e9d7c59-d3ef-4f91-bdf5-05757ce2eebe")
 	)
 	(junction
-		(at 148.59 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43e75b1c-99b0-4875-b542-66de544ef1e4")
-	)
-	(junction
 		(at 194.31 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3353,6 +3347,12 @@
 		(uuid "b041076c-ec30-40ee-9686-d56d7dc2d5b9")
 	)
 	(junction
+		(at 148.59 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b223f017-584e-4f99-88ee-e4efa4bf2628")
+	)
+	(junction
 		(at 207.01 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3371,6 +3371,12 @@
 		(uuid "ba87429f-875e-472d-abed-a20b94ba69ad")
 	)
 	(junction
+		(at 59.69 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa0308d-b8a4-49d8-8473-09016cc09d25")
+	)
+	(junction
 		(at 27.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3387,12 +3393,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4473d8b-5926-411c-996e-094533026b87")
-	)
-	(junction
-		(at 59.69 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea79c5b7-2885-4524-8110-7922902bc6a8")
 	)
 	(junction
 		(at 207.01 93.98)
@@ -3584,6 +3584,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 142.24) (xy 179.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262cc06e-7bc6-4b75-b8e0-c7571340b930")
+	)
+	(wire
+		(pts
 			(xy 144.78 166.37) (xy 144.78 172.72)
 		)
 		(stroke
@@ -3731,16 +3741,6 @@
 			(type default)
 		)
 		(uuid "484e02a3-0647-4f8f-8d23-8ba922134391")
-	)
-	(wire
-		(pts
-			(xy 59.69 139.7) (xy 90.17 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0c7fe0-2af7-42ac-9b1e-ecf587c78140")
 	)
 	(wire
 		(pts
@@ -4001,16 +4001,6 @@
 			(type default)
 		)
 		(uuid "96e5bc97-fb70-4e38-833b-710e5aa3d304")
-	)
-	(wire
-		(pts
-			(xy 148.59 142.24) (xy 179.07 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b7a592-25df-44b0-841b-d716a522d08b")
 	)
 	(wire
 		(pts
@@ -4401,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "f6dbb09d-4b91-4693-86ee-bded31665bc0")
+	)
+	(wire
+		(pts
+			(xy 59.69 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76660ab-3dc8-4c16-8654-b2019a31798b")
 	)
 	(wire
 		(pts
@@ -4888,7 +4888,7 @@
 			)
 		)
 	)
-	(global_label "DBG_UART_TX"
+	(global_label "VCOM_TX"
 		(shape input)
 		(at 252.73 142.24 0)
 		(fields_autoplaced yes)
@@ -4900,7 +4900,7 @@
 		)
 		(uuid "6efaaf8e-6b58-418c-b114-dccc561e1aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.2942 142.24 0)
+			(at 264.0004 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,7 +5248,7 @@
 			)
 		)
 	)
-	(global_label "DBG_UART_RX"
+	(global_label "VCOM_RX"
 		(shape output)
 		(at 229.87 144.78 180)
 		(fields_autoplaced yes)
@@ -5260,7 +5260,7 @@
 		)
 		(uuid "e0465ee8-c442-4222-a8a1-2f65815ab4c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.0034 144.78 0)
+			(at 218.2972 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8090,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RKB2SJM250SMTR_LFS")
-		(at 148.59 139.7 0)
+		(at 148.59 142.24 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8098,10 +8099,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f34dee8-6a79-4058-953e-b6be968e30e1")
 		(property "Reference" "S2"
-			(at 163.83 132.08 0)
+			(at 163.83 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8111,7 +8111,7 @@
 			)
 		)
 		(property "Value" "RKB2SJM250SMTR_LFS"
-			(at 163.83 134.62 0)
+			(at 163.83 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8121,7 +8121,7 @@
 			)
 		)
 		(property "Footprint" "RKB2SJM250SMTRLFS"
-			(at 175.26 234.62 0)
+			(at 175.26 47.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8133,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/3130/ck_rk_datasheet.pdf"
-			(at 175.26 334.62 0)
+			(at 175.26 -52.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches J Bend SMT Term 180gf Force"
-			(at 148.59 139.7 0)
+			(at 148.59 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8156,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at 175.26 534.62 0)
+			(at 175.26 -252.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8168,7 @@
 			)
 		)
 		(property "Mouser Part Number" "611-RKB2SJM250SMTRLF"
-			(at 175.26 634.62 0)
+			(at 175.26 -352.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +8180,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/RKB2SJM250SMTR-LFS?qs=iLbezkQI%252Bsj518EgFgehgw%3D%3D"
-			(at 175.26 734.62 0)
+			(at 175.26 -452.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8192,7 +8192,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 175.26 834.62 0)
+			(at 175.26 -552.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,7 +8204,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RKB2SJM250SMTR LFS"
-			(at 175.26 934.62 0)
+			(at 175.26 -652.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8877,8 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:RKB2SJM250SMTR_LFS")
-		(at 59.69 137.16 0)
+		(at 59.69 139.7 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8885,10 +8886,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7716650-1139-4838-9458-30db53a440b6")
 		(property "Reference" "S1"
-			(at 74.93 129.54 0)
+			(at 74.93 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8898,7 +8898,7 @@
 			)
 		)
 		(property "Value" "RKB2SJM250SMTR_LFS"
-			(at 74.93 132.08 0)
+			(at 74.93 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8908,7 +8908,7 @@
 			)
 		)
 		(property "Footprint" "RKB2SJM250SMTRLFS"
-			(at 86.36 232.08 0)
+			(at 86.36 44.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/3130/ck_rk_datasheet.pdf"
-			(at 86.36 332.08 0)
+			(at 86.36 -55.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8932,7 @@
 			)
 		)
 		(property "Description" "Tactile Switches J Bend SMT Term 180gf Force"
-			(at 59.69 137.16 0)
+			(at 59.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8943,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at 86.36 532.08 0)
+			(at 86.36 -255.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +8955,7 @@
 			)
 		)
 		(property "Mouser Part Number" "611-RKB2SJM250SMTRLF"
-			(at 86.36 632.08 0)
+			(at 86.36 -355.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8967,7 +8967,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/RKB2SJM250SMTR-LFS?qs=iLbezkQI%252Bsj518EgFgehgw%3D%3D"
-			(at 86.36 732.08 0)
+			(at 86.36 -455.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8979,7 +8979,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 86.36 832.08 0)
+			(at 86.36 -555.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,7 +8991,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RKB2SJM250SMTR LFS"
-			(at 86.36 932.08 0)
+			(at 86.36 -655.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
