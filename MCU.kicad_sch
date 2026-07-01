@@ -5381,7 +5381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01530141-b55c-458d-b789-4e6b4027c667")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 210.82 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5445,7 +5445,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5985,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4295538d-7490-4042-9ce7-12e90348e2ca")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 198.12 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6068,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "485d9b5d-d75c-4bdc-bb58-d4ff52f82f94")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 184.15 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6132,7 +6132,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6398,7 +6398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65cf3d0a-763a-43e9-986f-20b5a53e18c4")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 210.82 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +6462,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6480,7 +6480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d966896-3a1c-4cc2-b926-43d146f45b64")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR013"
 			(at 160.02 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6540,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR042")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6638,7 +6638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70719e45-dd94-435a-8440-ae12e817132e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 219.71 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6698,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74f090bc-1441-456c-a830-46a800195254")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 210.82 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +7120,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7138,7 +7138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75331aa4-95d2-460c-b168-c6ea86f53dd8")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 171.45 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +7202,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7385,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81f573a1-3b60-4d3f-b1e3-a0999ce30c46")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 270.51 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7445,7 +7445,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7464,7 +7464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85fed32e-3f74-4d79-b256-4ad10934f343")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 198.12 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7528,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e586310-d129-4ea8-8bf1-1c18e4f231ef")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 219.71 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7606,7 +7606,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aab0cddd-df65-46f9-a728-c808b4482872")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 217.17 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8546,7 +8546,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8564,7 +8564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b275997d-8c02-4404-98d3-4da95e7a24e9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR012"
 			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8625,7 +8625,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR044")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8742503-0d1d-4df7-bd24-49d774ebc008")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR011"
 			(at 144.78 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +8703,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR041")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8805,7 +8805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0005b04-82d3-4596-9f7b-d7b3b9148201")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 198.12 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +8869,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9193,7 +9193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da33d74c-dc8b-4544-8fc6-0965b94756da")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 180.34 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9253,7 +9253,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9683,7 +9683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb28b574-69cc-4196-b306-e672ec00f1e0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR010"
 			(at 142.24 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9743,7 +9743,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "#PWR043")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc8c13c-d6b6-487d-862e-64246257bdf1")
-		(property "Reference" "C29"
+		(property "Reference" "C11"
 			(at 153.67 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9824,7 +9824,7 @@
 		(instances
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C29")
+					(reference "C11")
 					(unit 1)
 				)
 			)
