@@ -11763,12 +11763,12 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "b5a4136c-af25-437a-997a-a0d0a317a024")
-		(at 225.885358 43.488446)
+		(at 228.1 43.2)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fe32e828-0930-46c0-8149-d0c2c38956f8")
+			(uuid "f93f9cce-3877-4351-8360-259ff7fcc0bd")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -11780,7 +11780,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "88cef19a-1b76-4b25-91ec-289ce82744de")
+			(uuid "97e36e1b-5ab5-42e0-b9d7-fc2c3d348c26")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -11792,7 +11792,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d18660a8-0b4a-4dca-930f-74ef1a90ed15")
+			(uuid "1422412a-e778-4ba5-a68d-014646127bf5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11803,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "921ce789-f3ed-47ba-8645-c7bbb2cc5f57")
+			(uuid "946dc87c-a126-4f39-8205-7351b5edd7ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19392,7 +19392,7 @@
 		(uuid "e81f6946-e8f0-43fc-abe8-6f890558a415")
 	)
 	(gr_text "r0 • Cy Westbrook • Jun 2026"
-		(at 215.885358 47.188446 0)
+		(at 218.1 46.9 0)
 		(layer "F.SilkS")
 		(uuid "9b642862-469f-419c-a830-deb1e8635142")
 		(effects
@@ -19405,7 +19405,7 @@
 		)
 	)
 	(gr_text "ULP Radio Sensor Hub"
-		(at 215.885358 45.688446 0)
+		(at 218.1 45.4 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a9e1d208-c7e9-4af9-bcab-004edfbc8c7d")
 		(effects
