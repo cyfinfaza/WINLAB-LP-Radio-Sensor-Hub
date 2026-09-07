@@ -4208,11 +4208,43 @@
 		)
 		(uuid "2b4ceacf-6e08-48fb-98f8-fa2b604d8706")
 	)
+	(text "10ms time constant"
+		(exclude_from_sim no)
+		(at 170.688 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ed95c12-b414-4475-813d-c922c4d39428")
+	)
+	(text "TEMP groudned to disable"
+		(exclude_from_sim no)
+		(at 116.84 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2225d36-44c0-41b3-a0a6-ef2816b96711")
+	)
+	(junction
+		(at 161.29 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0061c886-a4fb-49ec-97c5-7ad253849742")
+	)
 	(junction
 		(at 251.46 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05df8b18-b62d-4632-b832-4c92f6810226")
+	)
+	(junction
+		(at 168.91 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071a5d15-da24-497f-91bc-646de0ddd590")
 	)
 	(junction
 		(at 196.85 82.55)
@@ -4299,12 +4331,6 @@
 		(uuid "3308dd8f-c709-42ba-81ab-3717ee01aa11")
 	)
 	(junction
-		(at 175.26 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bc56f52-64ed-49e5-bb49-12db773108ce")
-	)
-	(junction
 		(at 184.15 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4371,10 +4397,22 @@
 		(uuid "982df25f-1950-4511-b8f0-7094287c23a2")
 	)
 	(junction
+		(at 120.65 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a4eb90-3c66-4a92-942d-bc375e2cd248")
+	)
+	(junction
 		(at 185.42 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9710017-b8f3-4a57-ac80-3105391b8314")
+	)
+	(junction
+		(at 168.91 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd115880-6569-4213-a663-92a2b9dfc022")
 	)
 	(junction
 		(at 45.72 165.1)
@@ -4508,6 +4546,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 143.51) (xy 217.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebedbdc-6a9f-46dd-b5ed-ff1fd41e11a7")
+	)
+	(wire
+		(pts
 			(xy 161.29 153.67) (xy 195.58 153.67)
 		)
 		(stroke
@@ -4538,6 +4586,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f16005a-c771-46b3-8d51-71382790f167")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f888e88-4b80-4aa0-84bb-a5dbe42800bf")
+	)
+	(wire
+		(pts
 			(xy 80.01 69.85) (xy 87.63 69.85)
 		)
 		(stroke
@@ -4555,6 +4623,16 @@
 			(type default)
 		)
 		(uuid "214d9c2b-8878-4ac9-9f47-6e12c62fc21b")
+	)
+	(wire
+		(pts
+			(xy 120.65 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218a627b-76f1-45eb-a2b0-41a92713d89a")
 	)
 	(wire
 		(pts
@@ -4718,6 +4796,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 74.93) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e43b2b-7b1d-44d0-8632-781281363c05")
+	)
+	(wire
+		(pts
 			(xy 161.29 134.62) (xy 161.29 153.67)
 		)
 		(stroke
@@ -4808,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 82.55) (xy 138.43 82.55)
+			(xy 111.76 82.55) (xy 120.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4845,6 +4933,16 @@
 			(type default)
 		)
 		(uuid "55e2caa9-dee3-431a-9741-d13663ae12aa")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a09f0e4-28fa-4dcc-b08b-6ad7fdbdbf08")
 	)
 	(wire
 		(pts
@@ -4895,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "5f35d1b1-3243-41f9-9c63-50c398846532")
+	)
+	(wire
+		(pts
+			(xy 215.9 140.97) (xy 226.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5ab256-d667-4426-b6f6-76131e7cff72")
 	)
 	(wire
 		(pts
@@ -4968,6 +5076,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cea7fd7-c698-4648-a65c-1ba6bf9cec8a")
+	)
+	(wire
+		(pts
 			(xy 138.43 77.47) (xy 138.43 82.55)
 		)
 		(stroke
@@ -4988,6 +5106,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 67.31) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733e1121-447e-4960-8e9e-a5c3e99115e4")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d4e1b5-5f62-4e3b-99d7-c41cbca6c819")
+	)
+	(wire
+		(pts
 			(xy 80.01 38.1) (xy 82.55 38.1)
 		)
 		(stroke
@@ -5005,6 +5143,16 @@
 			(type default)
 		)
 		(uuid "792a24d8-65ad-43b8-b166-006e2bf8d5a5")
+	)
+	(wire
+		(pts
+			(xy 161.29 64.77) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79879295-fa4b-48e3-9553-4e6a1a2e2d7d")
 	)
 	(wire
 		(pts
@@ -5055,16 +5203,6 @@
 			(type default)
 		)
 		(uuid "7c15143d-8106-4f31-96c0-40c8c8ed4a39")
-	)
-	(wire
-		(pts
-			(xy 175.26 64.77) (xy 175.26 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dbd07bb-1d83-46fe-8c08-83612bfec2fa")
 	)
 	(wire
 		(pts
@@ -5218,7 +5356,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 82.55) (xy 175.26 82.55)
+			(xy 151.13 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5235,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "b870c01c-f350-4c67-ac27-69962dd4d5db")
+	)
+	(wire
+		(pts
+			(xy 224.79 143.51) (xy 226.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8968bd3-d7ec-46e0-8122-17a316fd6f70")
 	)
 	(wire
 		(pts
@@ -5318,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 64.77) (xy 194.31 64.77)
+			(xy 151.13 64.77) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5488,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 140.97) (xy 208.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf618f5-60b8-432e-ab79-bc860af3b07a")
+	)
+	(wire
+		(pts
 			(xy 185.42 73.66) (xy 186.69 73.66)
 		)
 		(stroke
@@ -5495,6 +5653,16 @@
 			(type default)
 		)
 		(uuid "fd8faf37-3f75-4450-b4dc-022cbe643e80")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff66b9f2-f627-4cdc-b5cc-31178bf108e5")
 	)
 	(global_label "USB-"
 		(shape bidirectional)
@@ -5546,7 +5714,7 @@
 	)
 	(global_label "VCOM_RX"
 		(shape bidirectional)
-		(at 205.74 143.51 0)
+		(at 226.06 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5556,7 +5724,7 @@
 		)
 		(uuid "5f426412-b749-4c8c-8fa6-ed718a9fe729")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4241 143.51 0)
+			(at 238.7441 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +5786,7 @@
 	)
 	(global_label "VCOM_TX"
 		(shape bidirectional)
-		(at 205.74 140.97 0)
+		(at 226.06 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5628,7 +5796,7 @@
 		)
 		(uuid "a2bfe4c0-f3fb-4167-b924-1b9c310de9b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.1217 140.97 0)
+			(at 238.4417 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,6 +5936,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 220.98 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07599da6-21bb-49a3-95a6-1858265f1276")
+		(property "Reference" "R13"
+			(at 220.98 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 220.98 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 220.98 145.288 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb89f230-93ab-4d8a-88d7-bbeef50d0eb3")
+		)
+		(pin "1"
+			(uuid "87abac48-3214-422e-b4fb-17bf9681f40c")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 76.2 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -5843,6 +6091,86 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f19bbc0-d05f-498e-a4d0-c0a541c45db2")
+		(property "Reference" "R12"
+			(at 212.09 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 212.09 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 212.09 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f847f68b-f3fa-47fb-93f1-b31e6a154eda")
+		)
+		(pin "1"
+			(uuid "ce2b39ac-3964-415f-881f-603a5752c106")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6698,7 +7026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "4.7u"
 			(at 273.05 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7768,6 +8096,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 168.91 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82bb7639-79da-4976-8613-28428d2999ef")
+		(property "Reference" "C31"
+			(at 165.1 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.1 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 169.8752 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08024c8e-8736-4c05-a089-ff37aa672bbd")
+		)
+		(pin "2"
+			(uuid "bc547089-b1c7-4eb6-ad09-b0838c12fc47")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "844c7f81-850c-40be-a3f5-7827a3ccb1fe")
+		(property "Reference" "R14"
+			(at 165.1 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.1 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "863eb209-c51d-4437-8305-8e78c9cc65a1")
+		)
+		(pin "1"
+			(uuid "5efcd673-0e0d-4441-893c-a4d03a224b30")
+		)
+		(instances
+			(project "WINLAB-LP-Radio-Sensor-Hub"
+				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/5ad374ff-424f-46b2-9f18-b4cecbd24790"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 165.1 0)
 		(unit 1)
@@ -7933,10 +8422,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1a1f2f0-2486-42a1-ad20-97537e7c0f7f")
 		(property "Reference" "U8"
-			(at 171.45 72.3899 0)
+			(at 171.704 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7947,7 +8435,7 @@
 			)
 		)
 		(property "Value" "TPS3839K33DBZ"
-			(at 171.45 74.9299 0)
+			(at 171.704 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8113,7 +8601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "5.1k"
 			(at 215.9 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
+		(property "Value" "B5819W"
 			(at 58.42 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)

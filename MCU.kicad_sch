@@ -3531,12 +3531,6 @@
 		(uuid "62d490ae-2c6b-4249-9d7c-663fd6c44779")
 	)
 	(junction
-		(at 137.16 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71de0172-afad-4ba3-8924-7818f704dce5")
-	)
-	(junction
 		(at 193.04 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3579,12 +3573,6 @@
 		(uuid "8675cba7-0d03-4164-a285-3be2c31e306e")
 	)
 	(junction
-		(at 157.48 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d365ad2-c7c2-4069-8706-4af2777eea56")
-	)
-	(junction
 		(at 39.37 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3607,12 +3595,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61877cd-1fe9-4ce1-9390-a20b2e68d55e")
-	)
-	(junction
-		(at 137.16 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b041076c-ec30-40ee-9686-d56d7dc2d5b9")
 	)
 	(junction
 		(at 148.59 142.24)
@@ -3673,12 +3655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3188e14-b65f-425a-a828-b28f50570d02")
-	)
-	(junction
-		(at 147.32 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f339f57e-3c62-49b5-b87d-260a516fbb8e")
 	)
 	(junction
 		(at 142.24 187.96)
@@ -3836,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 24.13) (xy 137.16 24.13)
+			(xy 132.08 26.67) (xy 147.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4166,16 +4142,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 24.13) (xy 120.65 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec32472-d00c-4da6-a103-f48b1c2c7537")
-	)
-	(wire
-		(pts
 			(xy 39.37 148.59) (xy 39.37 147.32)
 		)
 		(stroke
@@ -4216,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 27.94) (xy 147.32 24.13)
+			(xy 147.32 26.67) (xy 147.32 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4233,16 +4199,6 @@
 			(type default)
 		)
 		(uuid "8c6f5034-6eb8-4f8a-a75d-6febddf04257")
-	)
-	(wire
-		(pts
-			(xy 157.48 25.4) (xy 157.48 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90679f38-45b4-4272-bb30-eb46f3fdac6d")
 	)
 	(wire
 		(pts
@@ -4653,26 +4609,6 @@
 			(type default)
 		)
 		(uuid "f2487667-e087-4b4e-a41d-f7d128d4d95c")
-	)
-	(wire
-		(pts
-			(xy 137.16 24.13) (xy 137.16 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e21147-7056-46b6-8f91-91d43f287e88")
-	)
-	(wire
-		(pts
-			(xy 157.48 24.13) (xy 147.32 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5dfa06d-ffcd-41e8-a577-521c4bd063e6")
 	)
 	(wire
 		(pts
@@ -5684,7 +5620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 259.08 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 24.13 0)
+		(at 132.08 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8806,7 +8742,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53cfd39-bf95-4905-859a-ace18984de29")
 		(property "Reference" "#PWR06"
-			(at 120.65 30.48 0)
+			(at 132.08 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8817,7 +8753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 29.21 0)
+			(at 132.08 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8827,7 +8763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 24.13 0)
+			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8838,7 +8774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 24.13 0)
+			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8849,7 +8785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 24.13 0)
+			(at 132.08 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,169 +9750,6 @@
 			(project "WINLAB-LP-Radio-Sensor-Hub"
 				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 157.48 29.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e69dc991-c1fc-49c6-807e-54f63c7989a9")
-		(property "Reference" "C7"
-			(at 161.29 27.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12p"
-			(at 161.29 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 156.5148 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85a1f4f4-3593-4aa4-9b58-90f9ad908f41")
-		)
-		(pin "2"
-			(uuid "766d0f10-8147-458c-b985-ce3c6b379d95")
-		)
-		(instances
-			(project "WINLAB-LP-Radio-Sensor-Hub"
-				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e97c2c5b-bd86-4ed9-acdc-ea44550f1341")
-		(property "Reference" "C6"
-			(at 133.35 27.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12p"
-			(at 133.35 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 138.1252 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41ce1f7d-a819-4174-b76f-dfd1ecafd884")
-		)
-		(pin "2"
-			(uuid "d61c0b3a-0fe5-40cf-b054-ba751ccd4c47")
-		)
-		(instances
-			(project "WINLAB-LP-Radio-Sensor-Hub"
-				(path "/0de7ee4a-bb98-4bc6-bb89-3afafc4b94b5/f02c211f-c559-4db5-8225-ca108efc3892"
-					(reference "C6")
 					(unit 1)
 				)
 			)
