@@ -8189,7 +8189,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 83.7692 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8425,7 +8425,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM18PG330SN1D"
 			(at 118.1608 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,7 +8735,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0R"
 			(at 118.0592 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8893,7 +8893,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM18SG700TZ1D"
 			(at 83.7692 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
